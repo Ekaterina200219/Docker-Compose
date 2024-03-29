@@ -1,4 +1,6 @@
 # Docker-Compose
+В данной практике используется образ для Oracle VM VirtualBox, взятый с сайта https://mirror.yandex.ru/ubuntu-releases/22.04/ под названием ubuntu-22.04.4-live-server-amd64.iso.
+Суть задачи заключается в том, чтобы мы ввели фамилию из базы данных на нашем сайте и вывели номер студенческого билета. 
 
 Запустить docker compose можно с помощью команды sudo docker-compose up
 
