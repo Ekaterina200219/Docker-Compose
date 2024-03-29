@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница студента</title>
+</head>
+<body>
+    <h1>Страница студента</h1>
+    {% if student_info %}
+        <h2>Информация о студенте:</h2>
+        <p>Фамилия: {{ student_info[0] }}</p>
+        <p>Номер студенческого билета: {{ student_info[1] }}</p>
+    {% elif not_found %}
+        <p>Данный студент не найден</p>
+    {% endif %}
+</body>
+</html>
+
