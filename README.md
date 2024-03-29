@@ -1,6 +1,7 @@
 # Docker-Compose
 
 Запустить docker compose можно с помощью команды sudo docker-compose up
+
 Если изменяли какой-нибудь контейнер, то необходимо обновить с помощью команды sudo docker-compose up --build.
 
 Полезные команды:
