@@ -2,7 +2,9 @@
 Сама структура:
 docker-compose.yml
 |_ services:
+
 |_ _ flask_app (1 контейнер):
+
 |_ _ _ приложение Flask
 |_ _ _ _ Dockerfile
 |_ _ _ _ _ requirements.txt (библиотеки)
